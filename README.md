@@ -44,8 +44,7 @@ REST API:
    4. PUT /rest/api/books/{id} - Update an existing book.
    5. DELETE /rest/api/books/{id} - Delete a book.
 
-## Rest API test Using PostMan
-Test case provided:
+## Spring test cases
 1. Book Repository
 2. Book Service
 3. API Endpoints
