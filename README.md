@@ -38,11 +38,11 @@ REST API:
 1. Login
     POST /rest/auth/login (admin/12345)
 3. Created Authorized endpoints for the Book entity:
-    GET /rest/api/books - Retrieve all books.
-    GET /rest/api/books/{id} - Retrieve a book by its ID.
-    POST /rest/api/books - Create a new book.
-    PUT /rest/api/books/{id} - Update an existing book.
-    DELETE /rest/api/books/{id} - Delete a book.
+   1. GET /rest/api/books - Retrieve all books.
+   2. GET /rest/api/books/{id} - Retrieve a book by its ID.
+   3. POST /rest/api/books - Create a new book.
+   4. PUT /rest/api/books/{id} - Update an existing book.
+   5. DELETE /rest/api/books/{id} - Delete a book.
 
 ## Rest API test Using PostMan
 Test case provided:
@@ -51,4 +51,4 @@ Test case provided:
 3. API Endpoints
 
 ## Rest API test Using PostMan
-Uploaded postman json to test APIs using Postman
+Uploaded postman json to test APIs using [Postman](https://www.postman.com)
